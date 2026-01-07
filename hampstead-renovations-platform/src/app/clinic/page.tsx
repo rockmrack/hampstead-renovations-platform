@@ -1,10 +1,7 @@
-import { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 
-export const metadata: Metadata = {
-    title: "Renovation Clinic",
-    description: "Join our free renovation clinics and learn from London's renovation experts.",
-};
 
 export default function ClinicPage() {
     return (

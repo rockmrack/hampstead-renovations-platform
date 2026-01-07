@@ -1,10 +1,7 @@
-import { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 
-export const metadata: Metadata = {
-    title: "About Us",
-    description: "Learn about Hampstead Renovations - premium renovation specialists serving North West London since 2010.",
-};
 
 export default function AboutPage() {
     return (

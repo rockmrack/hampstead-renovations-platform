@@ -1,10 +1,7 @@
-import { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 
-export const metadata: Metadata = {
-    title: "Hampstead Journal",
-    description: "Renovation advice, design inspiration, and local insights from Hampstead Renovations.",
-};
 
 const articles = [
     { title: "Planning Permission in Camden: What You Need to Know", category: "Planning", date: "Dec 2024" },

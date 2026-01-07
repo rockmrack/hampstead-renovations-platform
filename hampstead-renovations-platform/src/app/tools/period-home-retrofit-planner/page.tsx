@@ -1,10 +1,7 @@
-import { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 
-export const metadata: Metadata = {
-    title: "Period Home Retrofit Planner",
-    description: "Plan thermal comfort, noise reduction, and energy upgrades for your period property.",
-};
 
 const upgrades = [
     { title: "Secondary Glazing", desc: "Improve thermal and acoustic performance without replacing original windows", cost: "£300-600/window", savings: "10-15%" },

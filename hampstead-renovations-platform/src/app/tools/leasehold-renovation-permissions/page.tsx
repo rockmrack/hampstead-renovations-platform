@@ -1,10 +1,7 @@
-import { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 
-export const metadata: Metadata = {
-    title: "Leasehold Renovation Permissions",
-    description: "Toolkit for flat and leasehold renovation permissions in London.",
-};
 
 const checklist = [
     { category: "Before You Start", items: ["Review lease for restrictions", "Check if works are structural", "Confirm freeholder contact"] },

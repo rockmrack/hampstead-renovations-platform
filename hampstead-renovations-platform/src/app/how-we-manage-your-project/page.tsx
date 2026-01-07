@@ -1,10 +1,7 @@
-import { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 
-export const metadata: Metadata = {
-    title: "How We Manage Your Project",
-    description: "See how Hampstead Renovations manages projects with transparency, reporting, and quality control.",
-};
 
 const features = [
     { title: "Weekly Reports", icon: "📊", desc: "Detailed progress updates with photos, milestones, and next steps" },

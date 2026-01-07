@@ -1,10 +1,7 @@
-import { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 
-export const metadata: Metadata = {
-    title: "Site Logistics Planner",
-    description: "Plan skip licences, scaffolding, and parking suspensions for your London renovation.",
-};
 
 const logistics = [
     { title: "Skip Licence", icon: "🗑️", leadTime: "5-10 days", cost: "£50-100/week", desc: "Required for skips on public highway. Apply to Camden Council." },

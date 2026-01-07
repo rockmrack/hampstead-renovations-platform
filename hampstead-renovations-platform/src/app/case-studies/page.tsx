@@ -1,10 +1,7 @@
-import { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 
-export const metadata: Metadata = {
-    title: "Case Studies",
-    description: "View our portfolio of renovation projects across North West London.",
-};
 
 const caseStudies = [
     { title: "Victorian Full Refurbishment", area: "Hampstead", type: "Full Renovation", budget: "£280k", duration: "16 weeks", image: "🏠" },
