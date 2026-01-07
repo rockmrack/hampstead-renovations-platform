@@ -1,6 +1,5 @@
-import AreaPageTemplate, { generateAreaMetadata } from "@/components/areas/AreaPageTemplate";
+import AreaPageTemplate from "@/components/areas/AreaPageTemplate";
 
-export const metadata = generateAreaMetadata("Maida Vale");
 
 export default function MaidaValePage() {
     return (

@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Metadata } from "next";
 
 interface AreaPageProps {
     areaName: string;
@@ -10,13 +9,6 @@ interface AreaPageProps {
     highlights: string[];
     propertyTypes: string[];
     planningNotes: string;
-}
-
-export function generateAreaMetadata(area: string): Metadata {
-    return {
-        title: `Renovations in ${area}`,
-        description: `Expert renovation services in ${area}. Full house refurbishment, extensions, loft conversions and more.`,
-    };
 }
 
 export default function AreaPageTemplate({
