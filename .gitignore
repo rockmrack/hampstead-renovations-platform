@@ -4,5 +4,8 @@ node_modules
 .next
 *.tsbuildinfo
 
+# Nested directory (all code is at root)
+hampstead-renovations-platform/
+
 # Snyk Security Extension - AI Rules (auto-generated)
 .github/instructions/snyk_rules.instructions.md
