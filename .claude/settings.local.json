@@ -7,7 +7,9 @@
       "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Hampstead Renovations Platform Next.js application\n\nAdded complete Next.js application with:\n- Service pages \\(renovations, extensions, loft conversions, etc.\\)\n- Area-specific pages \\(Hampstead, Belsize Park, Primrose Hill, etc.\\)\n- Interactive tools \\(cost calculator, planning checker, party wall kit, etc.\\)\n- Responsive layout with header and footer components\n- Tailwind CSS v4 styling\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git push:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Vercel configuration to fix deployment\n\nConfigure build to run in nested hampstead-renovations-platform directory.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git rm:*)",
+      "Bash(grep:*)"
     ]
   }
 }
