@@ -66,12 +66,12 @@ export default function Footer() {
                                     </svg>
                                     020 7123 4567
                                 </a>
-                                <a href="mailto:enquiries@hampsteadrenovations.co.uk" className="footer-contact-link">
+                                <a href="mailto:contact@hampsteadrenovations.co.uk" className="footer-contact-link">
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                         <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                                         <polyline points="22,6 12,13 2,6" />
                                     </svg>
-                                    enquiries@hampsteadrenovations.co.uk
+                                    contact@hampsteadrenovations.co.uk
                                 </a>
                             </div>
                         </div>
@@ -167,7 +167,7 @@ export default function Footer() {
                         description: "Premium renovation and refurbishment company serving Hampstead and North West London",
                         url: "https://hampsteadrenovations.co.uk",
                         telephone: "+442071234567",
-                        email: "enquiries@hampsteadrenovations.co.uk",
+                        email: "contact@hampsteadrenovations.co.uk",
                         address: {
                             "@type": "PostalAddress",
                             streetAddress: "Unit 3, Palace Court, 250 Finchley Rd",

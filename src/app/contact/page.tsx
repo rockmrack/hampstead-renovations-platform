@@ -99,7 +99,7 @@ export default function ContactPage() {
                                 </div>
                                 <div className="info-item">
                                     <span className="icon">✉️</span>
-                                    <a href="mailto:enquiries@hampsteadrenovations.co.uk">enquiries@hampsteadrenovations.co.uk</a>
+                                    <a href="mailto:contact@hampsteadrenovations.co.uk">contact@hampsteadrenovations.co.uk</a>
                                 </div>
                             </div>
 
