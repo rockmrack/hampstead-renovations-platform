@@ -6,9 +6,18 @@ export default function ContactPage() {
     const [formData, setFormData] = useState({ name: "", email: "", phone: "", postcode: "", message: "", projectType: "" });
     const [submitted, setSubmitted] = useState(false);
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        setSubmitted(true);
+        const res = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: { "Content-Type": "application/json", Accept: "application/json" },
+            body: JSON.stringify({
+                access_key: "9e316736-1844-4817-b5ef-4245ae83e7ce",
+                subject: "New Contact Enquiry — Hampstead Renovations",
+                ...formData,
+            }),
+        });
+        if (res.ok) setSubmitted(true);
     };
 
     return (
