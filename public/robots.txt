@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.hampsteadrenovations.co.uk/sitemap.xml
+Sitemap: https://www.hampsteadrenovations.co.uk/journal/sitemap.xml
+Sitemap: https://www.hampsteadrenovations.co.uk/planning/sitemap.xml
