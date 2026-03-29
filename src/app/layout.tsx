@@ -17,6 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.hampsteadrenovations.co.uk'),
   title: {
     default: "Hampstead Renovations | Premium Home Renovation in NW3 London",
     template: "%s | Hampstead Renovations",
