@@ -40,7 +40,7 @@ export default function ClinicPage() {
                     <div className="course-section">
                         <h2>7-Day Renovation Email Course</h2>
                         <p>Get 7 days of practical renovation advice delivered to your inbox.</p>
-                        <Link href="/learn/7-day-renovation-course" className="btn btn-outline">Learn More</Link>
+                        <Link href="/contact/" className="btn btn-outline">Learn More</Link>
                     </div>
                 </div>
             </section>

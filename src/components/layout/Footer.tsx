@@ -148,9 +148,9 @@ export default function Footer() {
                     <div className="footer-bottom-content">
                         <p>© {currentYear} Hampstead Renovations. All rights reserved.</p>
                         <div className="footer-legal">
-                            <Link href="/privacy">Privacy Policy</Link>
-                            <Link href="/terms">Terms of Service</Link>
-                            <Link href="/cookies">Cookie Policy</Link>
+                            <Link href="/privacy-policy/">Privacy Policy</Link>
+                            <Link href="/terms/">Terms of Service</Link>
+                            <Link href="/cookies/">Cookie Policy</Link>
                         </div>
                     </div>
                 </div>
